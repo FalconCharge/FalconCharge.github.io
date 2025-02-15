@@ -1,0 +1,36 @@
+.ProjectHeader {
+
+    background: linear-gradient(150deg, black 0%, #880808 60%, black 100%);
+
+    margin: 0;
+    padding: 20px;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1000; 
+    text-align: center;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.ProjectHeader h1, p{
+    background: linear-gradient(151deg, #f8f8f8 0%, #aaa9a9 100%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.ProjectHeader h1{
+    font-size: 3rem;
+    margin:0;
+}
+.ProjectHeader p{
+    font-size: 1.3rem;
+    margin:5;
+}
+
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
