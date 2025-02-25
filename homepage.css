@@ -89,6 +89,7 @@ a:link, a:visited, a:hover, a:active {
     border-radius: 30px;
     height: auto;
     width: 100%;
+    cursor: pointer;
 }
 .ProjectCard{
     width: 28%;
