@@ -12,17 +12,30 @@
     z-index: 1000; 
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 50px;
+    border-radius: 50px;
+
 
 }
-.ProjectFooter{
+.ProjectFooterOld{
+    
     background: linear-gradient(90deg, black 0%, #880808 60%, black 100%);
     margin: auto;
     z-index: 1000;
     padding-bottom: 20px;
 
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-radius: 50px;
 }
+.Footer{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: auto;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
 
 
 .ProjectHeader p, .ProjectFooter p{
@@ -48,8 +61,15 @@ body h2{
 }
 
 body{
-    background: linear-gradient(90deg, black 0%, #880808 50%, black 100%);
-    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #ff0101 0%,
+                                black 4%,
+                             #292828 5%,
+                             #292828 95%,
+                             black 96%,
+                               #ff0101 100%);
+
+
+    font-family: 'Poppins', sans-serif;
 }
 body p{
     font-size: 1.3rem;
