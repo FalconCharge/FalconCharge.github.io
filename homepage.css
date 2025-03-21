@@ -107,7 +107,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .ProjectCard img{
     border-radius: 30px;
-    height: auto;
+    height: 200px;
     width: 100%;
     cursor: pointer;
 }
